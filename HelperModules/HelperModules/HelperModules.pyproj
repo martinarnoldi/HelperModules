@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>471f0b01-94f4-471a-817d-b094d5144765</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>MainTest.py</StartupFile>
+    <StartupFile>test_HelperModule.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,9 @@
   <ItemGroup>
     <Compile Include="HelperModules.py" />
     <Compile Include="MainTest.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test_HelperModule.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

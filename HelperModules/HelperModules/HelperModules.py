@@ -15,3 +15,5 @@ def Log(logEntry,logfilePath,maxLogSizeInBytes):
     file = open(logfilePath,'a')
     file.write(timestamp + ' - ' + logEntry + "\n")    
     file.close()
+
+
