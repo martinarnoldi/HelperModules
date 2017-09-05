@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>471f0b01-94f4-471a-817d-b094d5144765</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>HelperModules.py</StartupFile>
+    <StartupFile>MainTest.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="HelperModules.py" />
+    <Compile Include="MainTest.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test1.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
